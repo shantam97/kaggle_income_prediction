@@ -1,0 +1,38 @@
+Column name,Description
+customerid , ID of the customer
+revised_net_salary(y) , Target variable: Salary of the individual
+total_loans , Total number of loan availed
+tot_live , Total number of loans live(Yet to settle)
+avg_tenure_closed , Average of the time it took the person to close the loans(not live)
+num_live_XX , Number of live loans of type XX
+num_closed_XX , Number of loans closed(settled) of type XX
+,
+sum_sanc_live_XX , Total amount sanctioned for the loan that are live of type XX
+max_sanc_live_XX , Maximum amount sanctioned for the loan that are live of type XX
+min_sanc_live_XX , Minimum amount sanctioned for the loan that are live of type XX
+sum_bal_live_XX , Total amount yet to be paid for live loans of type XX
+max_bal_live_XX , Maximum amount yet to be paid for live loans of type XX
+min_bal_live_XX , Minimum amount yet to be paid for live loans of type XX
+,
+sum_sanc_closed_XX , Total amount sanctioned for the loan that are closed(settled) of type XX
+max_sanc_closed_XX , Maximum amount sanctioned for the loan that are closed of type XX
+min_sanc_closed_XX , Minimum amount sanctioned for the loan that are closed of type XX
+sum_bal_closed_XX , Total amount yet to be paid for closed loans of type XX
+max_bal_closed_XX , Maximum amount yet to be paid for closed loans of type XX
+min_bal_closed_XX , Minimum amount yet to be paid for closed loans of type XX
+,
+num_YYYY_live_XX , Total number of live loans of type XX in year YYYY
+tot_bal_YYYY_XX , Total balance amount to be paid for loans of type XX in year YYYY
+tot_sanc_YYYY_XX , Total sanctioned amount for loans of type XX in year YYYY
+,
+overall_elite_flag , Whether the customer is in high valued segment or not according to the insurer
+marital_status , Married or not
+dimcity_name , City where the customer lives
+dimage , Age of the customer as of 2017
+residencetype , Type of residence of the customer
+,
+XX Loan types,
+AL , Auto Loan
+BL , Business Loan
+HL , Home Loan
+PL_CL , Personal Loan
